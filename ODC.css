@@ -10,7 +10,7 @@
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: #f9f9f9;
+    background-color: #181947;
 }
 
 .loja img {
@@ -21,7 +21,7 @@
 
 .loja h3 {
     margin-top: 0;
-    color: #181947;
+    color: white;
 }
 
 .loja p {
@@ -38,7 +38,7 @@
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
-    color:#181947;
+    color:white;
 }
 
 .btn-loja:hover {
