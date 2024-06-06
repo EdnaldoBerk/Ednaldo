@@ -1,43 +1,93 @@
-/* Adicione este bloco no seu arquivo de estilo CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181947;
+    color: white;
+}
 
-.lojas {
-    list-style: none;
+.header {
+    background-color: #202060;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav__links {
+    list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 
-.loja {
-    margin-bottom: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
+.nav__link {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav__link a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
     border-radius: 8px;
-    background-color: #181947;
+}
+
+.onde-comprar-container {
+    margin: 20px;
+}
+
+.lojas {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lojas li {
+    margin-bottom: 20px;
+}
+
+.loja {
+    background-color: #2E2E6E;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .loja img {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 10px;
+    max-width: 100px;
+    display: block;
+    margin: 0 auto 10px;
 }
 
 .loja h3 {
-    margin-top: 0;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .loja p {
-    margin-bottom: 10px;
-    font-size: 0.9em;
+    font-size: 0.9rem;
+    text-align: justify;
     line-height: 1.4;
 }
 
 .btn-loja {
-    display: inline-block;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
     text-decoration: none;
-    border-radius: 4px;
-}
-
-.btn-loja:hover {
-    background-color: #0056b3;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
 }
