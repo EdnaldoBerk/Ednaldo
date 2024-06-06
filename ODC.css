@@ -26,7 +26,7 @@ body {
     color: white;
 }
 
-.btn {
+.btn2 {
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -80,7 +80,7 @@ body {
     color: white;
 }
 
-.btn-loja {
+.btn2-loja {
     display: block;
     width: fit-content;
     margin: 0 auto;
